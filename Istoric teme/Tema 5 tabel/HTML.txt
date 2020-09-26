@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+</html>
+<head>
+    <link rel="stylesheet" href="Lectia 2.css">
+</head>
+<body>
+ <table>
+   <tr>
+     <th>Firstname</th>
+     <th>Lastname</th>
+     <th>Age</th>
+     <th>City</th>
+   </tr>
+   <tr>
+     <td>Peter</td> <td>Madalin</td> <td>26</td> <td>Bucharest</td>
+   </tr>
+   <tr>
+     <td>Griffin</td> <td>Ted</td> <td>31</td> <td>Las Vegas</td>
+   </tr>
+   <tr>
+     <td>Gonzalez</td> <td>Ramon</td> <td>39</td> <td>Sicilia</td>
+  </tr>
+   </tr>
+
+ </table>
+</body>
+</html>

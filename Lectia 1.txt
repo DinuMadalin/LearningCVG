@@ -1,0 +1,15 @@
+.cubVerde
+{
+  width: 50%;
+  height:50vh;
+  background-color: seagreen;
+  display:flex;
+  flex-flow:row-reverse wrap;
+  align-items: baseline;
+}
+body{display: flex;}
+
+
+
+<div class="cubVerde"></div>
+</body>

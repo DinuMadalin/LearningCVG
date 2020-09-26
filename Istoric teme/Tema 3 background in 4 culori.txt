@@ -1,0 +1,28 @@
+.cubRosu  {
+  width: 50%;
+  height: 50vh;
+background-color:red;
+
+}
+.cubAlbastru{
+  width: 50%;
+  height: 50vh;
+  background-color: blue;
+}
+.cubVerde
+{
+  width: 50%;
+  height:50vh;
+  background-color: seagreen;
+}
+
+.cubGalben
+{
+  width: 50%;
+  height:50vh;
+  background-color: yellow;
+}
+
+body{display: flex;
+flex-wrap: wrap;
+}

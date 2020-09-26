@@ -1,0 +1,50 @@
+.cubRosu-1  {
+  width: 100px;
+  height: 100px;
+background-color:red;
+}
+.cubAlbastru{
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+}
+.cubVerde
+{
+  width: 100px;
+  height:100px;
+  background-color: seagreen;
+}
+
+.cubGalben
+{
+  width: 100px;
+  height:100px;
+  background-color: yellow;
+}
+
+.cubRoz-3
+{
+  width: 100px;
+  height:100px;
+  background-color: rgb(255, 0, 221);
+}
+
+.column-2
+{
+ justify-content: center;
+}
+
+.container
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+body{
+  height: 100vh;
+  display: flex;
+  align-items:center;
+  justify-content: center;
+}
