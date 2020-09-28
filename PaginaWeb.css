@@ -49,6 +49,10 @@ input{
 select{
     margin-bottom: 20px;
 }
+form{
+    margin-bottom: 20px;
+}
+
 .container3
 {
     width: 50%;

@@ -12,13 +12,16 @@
      <br>
      <h2> Let us know how we can imporve freeCodeCamp</h2>
      <div class="container5">
-       <div class="container3">
-         <label for="fname">Name:<pre></pre></label>
-         <label for="femail">Email:</label>
-         <label for="fage">Age:</label>
-         <label for="fcountry">Country:</label>
-         <label for="role">Which option best describes your current role?</label>
-       </div>
+        <div class="container3">
+              <label for="fname">Name:<pre></pre></label>
+              <label for="femail">Email:</label>
+              <label for="fage">Age:</label>
+              <label for="fcountry">Country:</label>
+              <label for="role">Which option best describes your current role?</label>
+              <label for="recomand">How likely is that you would recommend freeCodeCamp to a friend?</label>
+              <label for="like">What do you like most in FCC?</label>
+              <label for="box">Things that should be improved in the future (Check all that apply)</label>
+         </div>
        <div class="container4">
          <input type="text" id="fname" name="fname">
          <input type="text" id="femail" name="femail">
@@ -33,6 +36,28 @@
            <option>Employee</option>
            <option>Programmer</option>
          </select>
+         <form name="recomand" id="">
+          <input type="radio" id="male" name="gender" value="male">
+          <label for="male">Definitely</label>
+          <input type="radio" id="female" name="gender" value="female">
+          <label for="female">Maybe</label>
+          <input type="radio" id="other" name="gender" value="other">
+          <label for="other">Not sure</label>
+         </form>
+         <select name="like" id="">
+           <option>Speed</option>
+           <option>Frendly</option>
+           <option>Interface</option>
+         </select>
+         <form name="box" id="">
+          <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+          <label for="vehicle1"> Front-end projects</label><br>
+          <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+          <label for="vehicle2"> Back-end projects</label><br>
+          <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+          <label for="vehicle3"> Data Visualization</label><br>
+          <input type="submit" value="Submit">
+        </form> 
         </div>
      </div>
    </div>
