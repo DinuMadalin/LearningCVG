@@ -1,7 +1,7 @@
 
 <script> 
   
-function cubDreapta() {
+function cubDreapaa() {
   var elem = document.getElementById("cubRosu");   
   var pos = 0;
   var id = setInterval(frame, 5);

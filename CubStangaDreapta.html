@@ -2,11 +2,28 @@
 </html>
 <head>
     <link rel="stylesheet" href="CubStangaDreapta.css">
-    <link rel="stylesheet" href="Java1.js">
     <p><button onclick="cubDreapta()">Click Me</button></p> 
 </head>
 <body>
     <div id ="container1">
         <div id ="cubRosu"></div>
       </div>
+
+      <script> 
+  
+        function cubDreapta() {
+          var elem = document.getElementById("cubRosu");   
+          var pos = 0;
+          var id = setInterval(frame, 5);
+          function frame() {
+            if (pos == 350) {
+              clearInterval(id);
+            } else {
+              pos++; 
+              elem.style.top = pos + "px"; 
+              elem.style.left = pos + "px"; 
+            }
+          }
+        }
+        </script>
 </body>
