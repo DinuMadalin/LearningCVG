@@ -1,0 +1,12 @@
+#container{
+  width: 100%;
+  display:flex;
+  justify-content: flex-start;
+}
+
+
+#cub{
+  width: 100px;
+  height: 100px;
+  background-color:red;
+}
