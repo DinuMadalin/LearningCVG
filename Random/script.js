@@ -1,11 +1,11 @@
 (function(){
-  const div = document.getElementById('cub');
-  var pos = Math.floor(Math.random() * 100) + 1;
-  div.addEventListener('click', () => {
-    const container = document.getElementById('container');
-    container.style.top=pos+"px";
-    container.style.bottom=pos+"px";
-    container.style.right=pos+"px";
-    container.style.left=pos+"px";
+  const cub = document.getElementById('cub');
+   var pos = Math.floor(Math.random() * 100) + 1;
+  cub.addEventListener('click', () => {
+    var pos = Math.floor(Math.random() * 100) + 1;
+    var poss = Math.floor(Math.random() * 100) + 1;
+      cub.style.bottom = pos + "%"; 
+      cub.style.right =poss + "%";
+     cub.getElementsByClassName(linear);
   })
 })()

@@ -1,7 +1,11 @@
 #container{
   width: 100%;
-  display:flex;
-  justify-content: flex-start;
+  height: 100vh;
+  position: relative;
+  transition-property: width, height;
+  transition-timing-function: linear;
+  transform: translate(10px, 10px);
+  transition: width 2s;
 }
 
 
@@ -9,4 +13,13 @@
   width: 100px;
   height: 100px;
   background-color:red;
+  position:absolute;
+  transition-property: width, height;
+  transition-timing-function: linear;
+  transform: translate(10px, 10px);
+  transition: width 2s;
+  
 }
+
+ 
+  
