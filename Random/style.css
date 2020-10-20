@@ -11,6 +11,8 @@
   height: 100px;
   background-color:red;
   position:absolute;
+  bottom: 0px;
+  right:0px;
   
   transition: all 2s;
   
