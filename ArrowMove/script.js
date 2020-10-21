@@ -11,12 +11,13 @@
     const currentTopValue = parseInt(style.top);
     const currentLeftValue = parseInt(style.left);
     const currentHeighValue = parseInt(stylee.height);
+    const currentWidthValue = parseInt(stylee.width);
     let newValue;
     switch (event.key)
       
     { 
       case 'ArrowUp':
-        if (cub.style.top != 0){
+        if (currentTopValue != 0){
         // pentru sageata sus micsoram valoarea topului
         newValue = currentTopValue - 3;
         // cand punem noua valoare pe cub o punem cum era initial, string de forma "7px"
@@ -26,22 +27,24 @@
         break;
       case 'ArrowDown':
        
-        if (cub.style.top != (currentHeighValue-100)) {
+        if (currentTopValue != (currentHeighValue-100)) {
         newValue = currentTopValue + 3;
         cub.style.top = newValue + "px";
         }
         break;
       case 'ArrowLeft':
-         if (cub.style.left != 0) {
+         if (currentLeftValue != 0) {
         newValue= currentLeftValue -3;
         cub.style.left= newValue + "px"; 
         // code for moving left
          }
         break;
       case 'ArrowRight': 
+      if(currentLeftValue != (currentWidthValue-100)) {
         newValue=currentLeftValue + 3;
         cub.style.left= newValue + "px";
         // code for moving right
+      }
         break;
       default:
         // code for any other key here - nu trebuie sa punem nimic aici
