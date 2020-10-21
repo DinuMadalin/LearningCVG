@@ -6,13 +6,12 @@
   document.addEventListener('keydown', (event) => {
     // laum tot style'yl cubului
     const style = window.getComputedStyle(cub);
-    const style = window.getComputedStyle(container);
+    const stylee = window.getComputedStyle(container);
     // vedem care este valoare lui top si il facem integer pentru ca el este string de forma "10px"
     const currentTopValue = parseInt(style.top);
     const currentLeftValue = parseInt(style.left);
-    const currentHeighValue = parseInt(style.height);
+    const currentHeighValue = parseInt(stylee.height);
     let newValue;
-    let newValue2;
     switch (event.key)
       
     { 
@@ -26,8 +25,8 @@
         }
         break;
       case 'ArrowDown':
-        newValue2= currentHeighValue;
-        if (cub.style.top != (newValue2-100)) {
+       
+        if (cub.style.top != (currentHeighValue-100)) {
         newValue = currentTopValue + 3;
         cub.style.top = newValue + "px";
         }
